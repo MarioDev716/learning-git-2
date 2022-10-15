@@ -18,7 +18,12 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 400;
 }
 
@@ -32,10 +37,23 @@ h1, h2, h3, h4, h5, h6 {
 footer {
     height: $footer-height;
     font-size: 10px;
+
     div {
         display: flex;
         justify-content: flex-end;
         align-content: flex-end;
         padding: 0 10px;
     }
+}
+
+.cat-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    img {
+        height: 140px;
+
+    }
+
 }

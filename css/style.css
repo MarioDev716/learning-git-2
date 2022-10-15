@@ -8,7 +8,12 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 400;
 }
 
@@ -28,4 +33,13 @@ footer div {
   justify-content: flex-end;
   align-content: flex-end;
   padding: 0 10px;
+}
+
+.cat-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.cat-image img {
+  height: 140px;
 }/*# sourceMappingURL=style.css.map */
