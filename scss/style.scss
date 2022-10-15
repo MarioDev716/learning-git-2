@@ -1,0 +1,41 @@
+$cosmic-latte: #f8f4e3ff;
+$timberwolf: #d4cdc3ff;
+$timberwolf-2: #d5d0cdff;
+$artichoke: #a2a392ff;
+$spanish-gray: #9a998cff;
+$text-color: rgb(62, 62, 58);
+$footer-height: 32px;
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+body {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: $text-color;
+    background: $cosmic-latte;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 30px;
+    min-height: calc(100vh - $footer-height - 60px);
+}
+
+footer {
+    height: $footer-height;
+    font-size: 10px;
+    div {
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+        padding: 0 10px;
+    }
+}
